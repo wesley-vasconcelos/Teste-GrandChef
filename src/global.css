@@ -2,6 +2,13 @@
     padding: 0;
     margin: 0;
     border: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
   }
-  
+  body{
+    background-color: #fafafa;
+
+  }
+
+  .MuiInputBase-input:hover{
+    border-color: #ef7a1b im !important;
+  }

@@ -6,11 +6,12 @@ const data = {
   labels: ["Abr3", "Abr4", "Abr5", "Abr6", "Abr7", "Abr8", "Abr9"],
   datasets: [
     {
-      label: "",
+      label: "Clientes",
       data: [100, 200, 150, 200, 300, 200, 400],
       borderColor: "#e17012",
       fill: false,
     },
+    
   
   ]
 };
@@ -20,7 +21,7 @@ const options = {
       yAxes: [
         {
           ticks: {
-            beginAtZero: true,
+            beginAtZero: false,
           },
         },
       ],
